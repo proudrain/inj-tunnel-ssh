@@ -1,6 +1,6 @@
 import * as events from 'events';
 
-type Config = Partial<{
+type _Config = Partial<{
   dstHost: string;
   dstPort: number;
   username: string;
@@ -9,8 +9,11 @@ type Config = Partial<{
   port: string;
 }>;
 
-export as namespace injTunnelSSH;
+export as namespace tInjectSSH;
 
 export = tinject;
 
-declare function tinject(config: Array<Config>): events.EventEmitter;
+declare function tinject(config: Array<_Config>): events.EventEmitter;
+declare namespace tinject {
+  export type Config = _Config;
+}
