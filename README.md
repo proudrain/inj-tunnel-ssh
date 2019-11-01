@@ -1,6 +1,6 @@
 # inj-tunnel-ssh
 
-[agebrock/inject-tunnel-ssh](https://github.com/agebrock/inject-tunnel-ssh) for node v8.x
+[agebrock/inject-tunnel-ssh](https://github.com/agebrock/inject-tunnel-ssh) for node v8.x or later.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "inj-tunnel-ssh",
-  "version": "0.0.3",
-  "description": "inject-tunnel-ssh for node v8.x",
+  "version": "0.0.4",
+  "description": "inject-tunnel-ssh for node v8.x or later",
   "author": {
     "name": "Proud Rain",
     "email": "lyhproud@gmail.com"
