@@ -19,7 +19,7 @@
     "connection"
   ],
   "devDependencies": {
-    "eslint": "^3.8.1",
+    "eslint": ">=4.18.2",
     "gulp": "^3.9.0",
     "gulp-coveralls": "^0.1.0",
     "gulp-eslint": "^3.0.1",
